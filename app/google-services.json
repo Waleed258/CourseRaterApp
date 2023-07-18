@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "81801619039",
+    "project_id": "cmp354-project-courserater",
+    "storage_bucket": "cmp354-project-courserater.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:81801619039:android:17bebcda3b23e3413bddea",
+        "android_client_info": {
+          "package_name": "com.example.icourseraterproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "81801619039-ab42no9m1lt95dopposcr9p8u0addesk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDK_6RAgAzT5WDFcEQZeshgs1RMlbqmflw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "81801619039-ab42no9m1lt95dopposcr9p8u0addesk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

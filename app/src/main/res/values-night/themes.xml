@@ -1,0 +1,8 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ICourseRaterProject" parent="Theme.Material3.DayNight">
+        <!-- Customize your dark theme here. -->
+        <item name="colorPrimary">@color/white</item>
+        <item name="android:navigationBarColor">@color/black</item> <!-- Optional: Set the navigation bar color as well -->
+    </style>
+</resources>

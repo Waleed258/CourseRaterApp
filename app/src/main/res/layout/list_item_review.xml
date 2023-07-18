@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/img_userprofile"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/img"
+        android:scaleType="centerCrop" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_marginStart="10dp">
+
+        <TextView
+            android:id="@+id/tv_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Waleed Abdelhadi"
+            android:textSize="18sp"
+            android:maxLines="1"/>
+
+        <TextView
+            android:id="@+id/tv_userdescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Covers the fundamentals of music, notation, instrumentation, form, historical time periods, “classical” and “popular” styles, and significant musical figures. Examines the history of music and its influence on different cultures. Addresses the development of written and listening skills in music theory."
+            android:textSize="14sp"
+            android:maxLines="3"
+            android:ellipsize="end" />
+
+        <TextView
+            android:id="@+id/tv_userrating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5.0"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_usertime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:layout_gravity="right" />
+
+    </LinearLayout>
+
+</LinearLayout>

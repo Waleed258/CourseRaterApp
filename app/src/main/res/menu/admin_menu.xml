@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/item_add"
+        android:title="Item" />
+    <item
+        android:id="@+id/item_delete"
+        android:title="item" />
+    <item
+        android:id="@+id/item_logout"
+        android:title="Log Out" />
+    <item
+        android:id="@+id/item_about1"
+        android:title="About" />
+    <item
+        android:id="@+id/item_refresh"
+        android:icon="@drawable/refresh"
+        android:title="Item"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/item_notfication"
+        android:icon="@drawable/bell"
+        android:title="Item"
+        android:visible="true"
+        app:showAsAction="always" />
+</menu>
